@@ -1,0 +1,12 @@
+{
+  "name": "flower-store-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "منصة زهور ريفان - بوتيك بيع الورد والهدايا الفاخرة",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev"
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ORD-1001",
+    "createdAt": "2026-10-12T14:30:00.000Z",
+    "customer": {
+      "name": "سارة الشمري",
+      "phone": "0551234567",
+      "email": "sarah.alshammari@example.com"
+    },
+    "recipient": {
+      "name": "ريم خالد",
+      "phone": "0559876543",
+      "city": "الرياض",
+      "district": "حي النخيل",
+      "addressDetails": "فيلا 12، شارع وادي حنيفة",
+      "cardMessage": "ألف مبروك التخرج يا أجمل خريجة! فخورين فيكِ وبإنجازك دائماً 🎓❤️",
+      "deliveryDate": "2026-10-13",
+      "deliveryTimeSlot": "المساء (4:00 م - 9:00 م)"
+    },
+    "items": [
+      {
+        "id": "prod-3",
+        "name": "باقة وسام النجاح والتخرج",
+        "price": 280,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1591886960571-74d43a9d4166?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "subtotal": 280,
+    "discount": 0,
+    "deliveryFee": 25,
+    "total": 305,
+    "paymentMethod": "mada",
+    "status": "in_preparation",
+    "statusHistory": [
+      { "status": "received", "time": "2026-10-12T14:30:00.000Z", "note": "تم استلام الطلب وتأكيد الدفع" },
+      { "status": "in_preparation", "time": "2026-10-12T15:10:00.000Z", "note": "جاري تنسيق الأزهار وتجهيز كرت الإهداء" }
+    ]
+  },
+  {
+    "id": "ORD-1002",
+    "createdAt": "2026-10-12T17:15:00.000Z",
+    "customer": {
+      "name": "عبدالله القحطاني",
+      "phone": "0504443322",
+      "email": "abdullah.q@example.com"
+    },
+    "recipient": {
+      "name": "أم فهد",
+      "phone": "0504443322",
+      "city": "جدة",
+      "district": "حي الشاطئ",
+      "addressDetails": "برج الأمواج، شقة 504",
+      "cardMessage": "كل عام وأنتِ جنة الدنيا ونور بيتنا يا ست الحبايب.. حفظكِ الله لنا 🌸",
+      "deliveryDate": "2026-10-14",
+      "deliveryTimeSlot": "الصباح (9:00 ص - 1:00 م)"
+    },
+    "items": [
+      {
+        "id": "prod-5",
+        "name": "صندوق ورود الهناء مع شوكولاتة باتشي",
+        "price": 340,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "subtotal": 340,
+    "discount": 34,
+    "deliveryFee": 25,
+    "total": 331,
+    "paymentMethod": "apple_pay",
+    "status": "out_for_delivery",
+    "statusHistory": [
+      { "status": "received", "time": "2026-10-12T17:15:00.000Z", "note": "تم استلام الطلب" },
+      { "status": "in_preparation", "time": "2026-10-12T18:00:00.000Z", "note": "تم الانتهاء من التنسيق وتغليف الشوكولاتة" },
+      { "status": "out_for_delivery", "time": "2026-10-12T19:30:00.000Z", "note": "المندوب في طريقه إلى المستلم" }
+    ]
+  },
+  {
+    "id": "ORD-1003",
+    "createdAt": "2026-10-11T11:00:00.000Z",
+    "customer": {
+      "name": "فيصل العتيبي",
+      "phone": "0569998877",
+      "email": "faisal.otaibi@example.com"
+    },
+    "recipient": {
+      "name": "منى العتيبي",
+      "phone": "0561112233",
+      "city": "الرياض",
+      "district": "حي الملقا",
+      "addressDetails": "مجمع الياسمين السكني، فيلا 8",
+      "cardMessage": "حمداً لله على سلامتك وسلامة المولود الجديد، جعله الله من مواليد السعادة والصلاح 👶🏻🍼",
+      "deliveryDate": "2026-10-11",
+      "deliveryTimeSlot": "المساء (4:00 م - 9:00 م)"
+    },
+    "items": [
+      {
+        "id": "prod-6",
+        "name": "باقة قدوم الملاك الصغير",
+        "price": 230,
+        "quantity": 1,
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "subtotal": 230,
+    "discount": 0,
+    "deliveryFee": 25,
+    "total": 255,
+    "paymentMethod": "cod",
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "received", "time": "2026-10-11T11:00:00.000Z", "note": "تم استلام الطلب" },
+      { "status": "in_preparation", "time": "2026-10-11T12:30:00.000Z", "note": "تم التنسيق" },
+      { "status": "out_for_delivery", "time": "2026-10-11T15:00:00.000Z", "note": "خرج للتوصيل" },
+      { "status": "delivered", "time": "2026-10-11T17:45:00.000Z", "note": "تم تسليم الطلب بنجاح إلى المستلم" }
+    ]
+  }
+]
